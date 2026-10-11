@@ -1,0 +1,47 @@
+
+# 🏋️‍♂️ Health & Fitness Challenge Platform — Backend API
+
+A robust RESTful API built with Java and Spring Boot to power the Health & Fitness Challenge platform. Handles authentication, challenge management, user progress tracking, and database interactions.
+
+🔗 **Frontend Repository:** [[View Java Angular Fronted Code](https://github.com/titirot/project-Angular.git)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language & Framework:** Java 17+, Spring Boot
+- **Database:** H2 Database (In-Memory)
+- **Security:** Spring Security with JWT (JSON Web Tokens)
+- **Data Access:** Spring Data JPA / Hibernate
+- **Build Tool:** Maven
+
+---
+
+## ✨ Key Capabilities & Endpoints
+
+- **Authentication Service:** JWT generation, payload verification, and protected REST endpoints.
+- **Challenge Management:** Full CRUD operations for creating, updating, and fetching challenges.
+- **User Progress Logic:** API endpoints for tracking participant scores, milestones, and challenge completion.
+- **Layered Architecture:** Strict separation between Controllers, Services, Repositories, and DTOs.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- JDK 17 or higher
+- Apache Maven
+
+### Local Setup & Execution
+
+```bash
+# 1. Clone the repository
+
+git clone [https://github.com/titirot/project-java.git](https://github.com/titirot/project-java.git)
+cd https://github.com/titirot/project-java.git
+
+# 2. Build and run the Spring Boot application
+mvn clean install
+mvn spring-boot:run
+
+<img width="1051" height="512" alt="image" src="https://github.com/user-attachments/assets/058ef200-f226-4542-bdd9-2aafe0fc34ad" />
