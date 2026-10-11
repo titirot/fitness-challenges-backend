@@ -3,7 +3,7 @@
 
 A robust RESTful API built with Java and Spring Boot to power the Health & Fitness Challenge platform. Handles authentication, challenge management, user progress tracking, and database interactions.
 
-🔗 **Frontend Repository:** [[View Java Angular Fronted Code](https://github.com/titirot/project-Angular.git)
+🔗 **Frontend Repository:**[View Java Angular Fronted Code](https://github.com/titirot/project-Angular.git)
 
 ---
 
