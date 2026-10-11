@@ -34,14 +34,16 @@ A robust RESTful API built with Java and Spring Boot to power the Health & Fitne
 
 ### Local Setup & Execution
 
+### Local Setup & Execution
+
 ```bash
 # 1. Clone the repository
-
-git clone [https://github.com/titirot/project-java.git](https://github.com/titirot/project-java.git)
-cd https://github.com/titirot/project-java.git
+git clone https://github.com/titirot/project-java.git
+cd project-java
 
 # 2. Build and run the Spring Boot application
 mvn clean install
 mvn spring-boot:run
+```
 
 ![App Screenshot](https://github.com/user-attachments/assets/0eea54f2-9d61-478e-b197-3fbf0d9f87e1)
