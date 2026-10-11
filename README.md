@@ -44,4 +44,4 @@ cd https://github.com/titirot/project-java.git
 mvn clean install
 mvn spring-boot:run
 
-<img width="1051" height="512" alt="image" src="https://github.com/user-attachments/assets/058ef200-f226-4542-bdd9-2aafe0fc34ad" />
+![App Screenshot](https://github.com/user-attachments/assets/0eea54f2-9d61-478e-b197-3fbf0d9f87e1)
