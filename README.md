@@ -24,13 +24,6 @@ A robust **Java Spring Boot RESTful API** powering the Health & Fitness Challeng
 - **🏆 Challenge Workflow Engine:** Full CRUD functionality for challenge lifecycle, user enrollments, and status updates.
 - **📊 Participant Progress Tracking:** Business logic calculating user metrics, score updates, and completion achievements.
 
----
-
-## 📸 Screenshots
-
-![Backend Architecture & Execution](https://github.com/user-attachments/assets/a6219868-8fe8-4af1-96d6-4d088ce8d770)
-
----
 
 ## 🚀 Getting Started
 
@@ -39,7 +32,18 @@ A robust **Java Spring Boot RESTful API** powering the Health & Fitness Challeng
 - Apache Maven
 
 ### Local Setup & Execution
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/titirot/fitness-challenges-backend.git](https://github.com/titirot/fitness-challenges-backend.git)
-   cd fitness-challenges-backend
+
+### Local Setup & Execution
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/titirot/project-java.git
+cd project-java
+
+# 2. Build and run the Spring Boot application
+mvn clean install
+mvn spring-boot:run
+```
+
+![App Screenshot](https://github.com/user-attachments/assets/0eea54f2-9d61-478e-b197-3fbf0d9f87e1)
+
