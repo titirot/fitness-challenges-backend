@@ -1,49 +1,41 @@
+# 🏋️‍♂️ AI-Powered Health & Fitness Challenge Platform — Backend API
 
-# 🏋️‍♂️ Health & Fitness Challenge Platform — Backend API
+A robust, enterprise-grade RESTful API built with Java and Spring Boot to power the Health & Fitness Challenge platform. Features a custom AI Agent engine with LLM integration, secure JWT authentication, and structured challenge logic.
 
-A robust RESTful API built with Java and Spring Boot to power the Health & Fitness Challenge platform. Handles authentication, challenge management, user progress tracking, and database interactions.
-
-🔗 **Frontend Repository:**[View  Angular Fronted Code](https://github.com/titirot/project-Angular.git)
+🔗 **Frontend Repository:** [https://github.com/titirot/health-fitness-tracker-frontend](https://github.com/titirot/health-fitness-tracker-frontend)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & AI Architecture
 
 - **Language & Framework:** Java 17+, Spring Boot
-- **Database:** H2 Database (In-Memory)
-- **Security:** Spring Security with JWT (JSON Web Tokens)
-- **Data Access:** Spring Data JPA / Hibernate
-- **Build Tool:** Maven
+- **AI & LLM Integration:** OpenAI API Integration, Prompt Engineering, Function Calling & Structured JSON Parsing
+- **Security:** Spring Security, JWT (JSON Web Tokens) Authentication & Role-Based Access Control
+- **Database & ORM:** H2 In-Memory Database, Spring Data JPA / Hibernate
+- **Build & Dependency Tool:** Apache Maven
 
 ---
 
-## ✨ Key Capabilities & Endpoints
+## ✨ Key Capabilities & Features
 
-- **Authentication Service:** JWT generation, payload verification, and protected REST endpoints.
-- **Challenge Management:** Full CRUD operations for creating, updating, and fetching challenges.
-- **User Progress Logic:** API endpoints for tracking participant scores, milestones, and challenge completion.
-- **Layered Architecture:** Strict separation between Controllers, Services, Repositories, and DTOs.
+- **🧠 Custom AI Agent Engine:** Integrates with LLM APIs using tailored prompt engineering techniques to process user fitness goals, generate personalized workout advice, and output structured payload responses.
+- **🔐 Secure Authentication:** JWT generation, token validation, dynamic Security Context handling, and protected REST endpoints.
+- **🏆 Challenge Management & Logic:** Complete CRUD services for creating, managing, and tracking multi-user fitness challenges.
+- **📊 Participant Progress Tracking:** Scalable business logic to calculate scoring, track user milestones, and record challenge completion.
+- **🏗️ Clean Layered Architecture:** Strict separation of concerns following DTO, Controller, Service, Repository, and Entity design patterns.
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- JDK 17 or higher
-- Apache Maven
+- **JDK 17** or higher
+- **Apache Maven**
+- **OpenAI API Key** (Set as environment variable `OPENAI_API_KEY`)
 
 ### Local Setup & Execution
 
-### Local Setup & Execution
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/titirot/project-java.git
-cd project-java
-
-# 2. Build and run the Spring Boot application
-mvn clean install
-mvn spring-boot:run
-```
-
-![App Screenshot](https://github.com/user-attachments/assets/0eea54f2-9d61-478e-b197-3fbf0d9f87e1)
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/titirot/health-fitness-tracker-backend.git](https://github.com/titirot/health-fitness-tracker-backend.git)
+   cd health-fitness-tracker-backend
